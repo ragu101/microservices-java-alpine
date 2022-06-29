@@ -2,7 +2,7 @@ FROM alpine:3.16.0
 
 LABEL base=alpine engine=jvm version=java11 timezone=UTC port=8080 dir=/opt/app user=app
 ARG ZULU_PKG="zulu11"
-
+# test commit
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
